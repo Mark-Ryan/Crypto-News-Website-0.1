@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crypto News!</title>
+    <meta charset='utf-8' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:700' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' />
+    <link rel='stylesheet' href='normalize.css' />
+    <link rel='stylesheet' href='main.css' />
+  </head>
+  <body>
+    <header class='hero'>
+      <div class='container'>
+        <p class='logo'>Crypto News!</p>
+      </div>
+    </header>
+    <main class='content'>
+      <div class='container'>
+
+        <header class='subheader'>
+          <h1>Latest News</h1>
+          <p>The latest links in the crypto currency community. <a class='js-add-link' href='#'>Add a link now!</a></p>
+          <form class='form js-form'>
+            <label class='form-label' for='form-link-input'>Add a story:</label>
+            <input class='form-input' type='text' id='form-link-input' />
+          </form>
+        </header>
+
+        <div class='modal js-modal'>
+          <div class='modal-media'>
+            <img src='http://media.coindesk.com/uploads/2016/03/william-mougayer-headshot.jpg?s=500&r=g' alt='' />
+            <h3 class='modal-media-title'>Stan Higgins</h3>
+          </div>
+          <div class='modal-content'>
+            <h3>About Me</h3>
+            <p>I have long been at the forefront of covering emerging developments in blockchain technology. I have previously contributed to financial websites, and I am an avid reader of poetry.</p>
+
+            <ol class='news'>
+              <li class='news-item'>
+                <a class='news-link' href='#'>US Health Department Selects 15 Blockchain Research Contest Winners</a>
+              </li>
+              <li class='news-item'>
+                <a class='news-link' href='#'>Judge Grants Cryptsy Lawsuit Class Action Status</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+        <div class='modal-overlay js-modal-overlay'></div>
+
+        <ol class='news'>
+          <li class='news-item'>
+            <a class='news-link' href='#'>US Health Department Selects 15 Blockchain Research Contest Winners</a>
+            <ul class='news-meta'>
+              <li class='news-meta-item'>
+                <em>Posted by:</em>
+                <a class='js-show-modal' href='#'>Stan Higgins</a>
+              </li>
+              <li class='news-meta-item'>
+                <a href='#'>0 comments</a>
+              </li>
+              <li class='news-meta-item'>
+                <a class='js-like' href='#'>Like this story!</a>
+              </li>
+            </ul>
+          </li>
+          <li class='news-item'>
+            <a class='news-link' href='#'>Bitmain to Release New Bitcoin Miner in Bid to Attract Hobbyists</a>
+            <ul class='news-meta'>
+              <li class='news-meta-item'>
+                <em>Posted by:</em>
+                <a href='#'>Jacob Donelly</a>
+              </li>
+              <li class='news-meta-item'>
+                <a href='#'>0 comments</a>
+              </li>
+              <li class='news-meta-item'>
+                <a class='js-like' href='#'>Like this story!</a>
+              </li>
+            </ul>
+          </li>
+          <li class='news-item'>
+            <a class='news-link' href='#'>Building the Foundations for a Scalable Ethereum Community</a>
+            <ul class='news-meta'>
+              <li class='news-meta-item'>
+                <em>Posted by:</em>
+                <a href='#'>Josh Stark</a>
+              </li>
+              <li class='news-meta-item'>
+                <a href='#'>0 comments</a>
+              </li>
+              <li class='news-meta-item'>
+                <a class='js-like' href='#'>Like this story!</a>
+              </li>
+            </ul>
+          </li>
+          <li class='news-item'>
+            <a class='news-link' href='#'>Singapore Central Bank Proposes New Rules for Bitcoin Startups</a>
+            <ul class='news-meta'>
+              <li class='news-meta-item'>
+                <em>Posted by:</em>
+                <a href='#'>Stan Higgins</a>
+              </li>
+              <li class='news-meta-item'>
+                <a href='#'>0 comment</a>
+              </li>
+              <li class='news-meta-item'>
+                <a class='js-like' href='#'>Like this story!</a>
+              </li>
+            </ul>
+          </li>
+          <li class='news-item'>
+            <a class='news-link' href='#'>Ethereum Classic Prices Plunge 20% as Trader Interest Wanes</a>
+            <ul class='news-meta'>
+              <li class='news-meta-item'>
+                <em>Posted by:</em>
+                <a href='#'>Charles Bovaird</a>
+              </li>
+              <li class='news-meta-item'>
+                <a href='#'>0 comments</a>
+              </li>
+              <li class='news-meta-item'>
+                <a class='js-like' href='#'>Like this story!</a>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </main>
+    <script src='https://code.jquery.com/jquery-2.2.1.min.js'></script>
+    <script src='app.js'></script>
+  </body>
+</html>
